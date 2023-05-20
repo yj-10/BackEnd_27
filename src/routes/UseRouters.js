@@ -25,7 +25,7 @@ const {
   productRCCTower,
   enquieryAdd,
   enquieryPost,
-} = require("../controller/useController");
+} = require("../controller/UseController");
 const router = express.Router();
 const session = require("express-session")
 const config=require('../../config/config')
