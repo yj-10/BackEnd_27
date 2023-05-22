@@ -44,7 +44,7 @@ const session = require("express-session");
 const cors = require("cors");
 // const { Session } = require('inspector');
 const cookieParser = require("cookie-parser");
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 7000;
 
 app.use(
   bodyParser.urlencoded({
